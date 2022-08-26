@@ -9,6 +9,7 @@
 
 
     <EditText
+
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,19 +17,20 @@
         android:backgroundTint="#A1A1A1"
         android:ems="10"
         android:hint="Cost of Service"
-        android:inputType="textPersonName"
+        android:inputType="numberDecimal"
         android:textColor="@color/black"
         android:textColorHint="#818181"
         android:textColorLink="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <ImageView
+        android:src="@drawable/binar"
         android:id="@+id/imageView"
         android:layout_width="80dp"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="@id/textView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/binar" />
+       />
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
